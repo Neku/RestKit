@@ -37,7 +37,8 @@ typedef enum RKRequestMethod {
     RKRequestMethodPOST,
     RKRequestMethodPUT,
     RKRequestMethodDELETE,
-    RKRequestMethodHEAD
+    RKRequestMethodHEAD,
+    RKRequestMethodPATCH,
 } RKRequestMethod;
 
 NSString *RKRequestMethodNameFromType(RKRequestMethod);
